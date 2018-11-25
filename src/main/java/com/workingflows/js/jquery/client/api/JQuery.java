@@ -50,7 +50,7 @@ public class JQuery {
     public static native JQueryElement $(Object plainObject, Element context);
 
     @JsMethod(namespace = JsPackage.GLOBAL)
-    public static native JQueryElement $(Object plainObject, com.workingflows.js.jscore.client.api.core.Element context);
+    public static native JQueryElement $(Object plainObject, elemental2.dom.Element context);
 
     @JsMethod(namespace = JsPackage.GLOBAL)
     public static native JQueryElement $(Object plainObject, JQueryElement context);
@@ -69,7 +69,7 @@ public class JQuery {
     public static native JQueryElement $(String selector, Element context);
 
     @JsMethod(namespace = JsPackage.GLOBAL)
-    public static native JQueryElement $(String selector, com.workingflows.js.jscore.client.api.core.Element context);
+    public static native JQueryElement $(String selector, elemental2.dom.Element context);
 
     @JsMethod(namespace = JsPackage.GLOBAL)
     public static native JQueryElement $(String selector, JQueryElement context);
@@ -88,7 +88,7 @@ public class JQuery {
     public static native JQueryElement $(JQueryElement element, Element context);
 
     @JsMethod(namespace = JsPackage.GLOBAL)
-    public static native JQueryElement $(JQueryElement element, com.workingflows.js.jscore.client.api.core.Element context);
+    public static native JQueryElement $(JQueryElement element, elemental2.dom.Element context);
 
     @JsMethod(namespace = JsPackage.GLOBAL)
     public static native JQueryElement $(JQueryElement element, JQueryElement context);
@@ -107,7 +107,7 @@ public class JQuery {
     public static native JQueryElement $(Element element, Element context);
 
     @JsMethod(namespace = JsPackage.GLOBAL)
-    public static native JQueryElement $(Element element, com.workingflows.js.jscore.client.api.core.Element context);
+    public static native JQueryElement $(Element element, elemental2.dom.Element context);
 
     @JsMethod(namespace = JsPackage.GLOBAL)
     public static native JQueryElement $(Element element, JQueryElement context);
@@ -126,7 +126,7 @@ public class JQuery {
     public static native JQueryElement $(Node element, Element context);
 
     @JsMethod(namespace = JsPackage.GLOBAL)
-    public static native JQueryElement $(Node element, com.workingflows.js.jscore.client.api.core.Element context);
+    public static native JQueryElement $(Node element, elemental2.dom.Element context);
 
     @JsMethod(namespace = JsPackage.GLOBAL)
     public static native JQueryElement $(Node element, JQueryElement context);
@@ -152,7 +152,7 @@ public class JQuery {
 
     @JsOverlay
     @SuppressWarnings("unchecked")
-    public static <T extends UIObject> JQueryElement<T> $(T uiObject, com.workingflows.js.jscore.client.api.core.Element context) {
+    public static <T extends UIObject> JQueryElement<T> $(T uiObject, elemental2.dom.Element context) {
         return $(uiObject.getElement(), context);
     }
 

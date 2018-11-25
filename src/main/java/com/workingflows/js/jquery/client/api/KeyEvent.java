@@ -5,10 +5,10 @@ import jsinterop.annotations.JsType;
 
 /**
  * KeyEvent for JQuery.
- * 
+ *
  * @author Ben Dol
  */
-@JsType(isNative=true)
+@JsType(isNative = true)
 public class KeyEvent extends Event {
 
     @JsProperty

@@ -1,15 +1,15 @@
 package com.workingflows.js.jquery.client.api;
 
-import com.workingflows.js.jscore.client.api.core.Element;
+import elemental2.dom.Element;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
 /**
  * Event for JQuery.
- * 
+ *
  * @author Cristian Rinaldi
  */
-@JsType(name = "jQuery", isNative=true)
+@JsType(name = "jQuery", isNative = true)
 public class Event {
 
     @JsProperty

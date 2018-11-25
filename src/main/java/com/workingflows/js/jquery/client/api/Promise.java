@@ -16,23 +16,24 @@
 package com.workingflows.js.jquery.client.api;
 
 import com.workingflows.js.jquery.client.api.Functions.FuncRet2;
+
 import jsinterop.annotations.JsType;
 
 /**
- * Represent a JQuery Promise 
+ * Represent a JQuery Promise
  *
  * @author Cristian Rinaldi
  */
-@JsType(name = "Promise", isNative=true)
+@JsType(name = "Promise", isNative = true)
 public interface Promise {
-    
+
     Promise then(FuncRet2<Event, Object> f);
-    
+
     Promise done(FuncRet2<Event, Object> f);
-    
+
     Promise when(FuncRet2<Event, Object> f);
-    
+
     Promise fail(FuncRet2<Event, Object> f);
-    
+
     Promise always(FuncRet2<Event, Object> f);
 }

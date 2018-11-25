@@ -1,15 +1,15 @@
 package com.workingflows.js.jquery.client.api;
 
-import com.workingflows.js.jscore.client.api.core.Element;
+import elemental2.dom.Element;
 import jsinterop.annotations.JsProperty;
 import jsinterop.annotations.JsType;
 
 /**
  * MouseEvent for JQuery.
- * 
+ *
  * @author Ben Dol
  */
-@JsType(isNative=true)
+@JsType(isNative = true)
 public class MouseEvent extends KeyEvent {
 
     @JsProperty
